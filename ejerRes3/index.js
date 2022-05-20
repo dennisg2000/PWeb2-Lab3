@@ -53,6 +53,7 @@ function recitar(markupText) {
         }
     )
 }
+
 document.addEventListener('DOMContentLoaded', function () {
     const text = document.querySelector('#markupText')
     document.querySelector('#markupForm').onsubmit = () => {
